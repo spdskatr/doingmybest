@@ -1,0 +1,8 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:spdskatr/spdskatr.github.io.git
+	branch = main
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = git@github.com:panr/hugo-theme-terminal.git
+    branch = master
