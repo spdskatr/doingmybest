@@ -15,6 +15,10 @@ I'm no artist, I'm a computer science student. That doesn't mean I don't like dr
 
 I properly picked up drawing a bit less than six weeks ago and I think it's time that I got a sketchbook.
 
+# Message from the future
+
+> Hello! It's me from the future. It's been another six weeks since this post and, reading over some of the stuff I wrote, I do not necessarily agree with all of my points in this post anymore. Perhaps I'll write another post some other time reflecting on what I've learned.
+
 # Why a sketchbook?
 
 I am tremedously underqualified to tell you why you would want a sketchbook if you draw. After all, I have only done one page. So far I've enjoyed it because it's a laid-back environment where *it's okay to make mistakes*. I also don't feel as obligated to perform the act of polishing up a piece, which can be a real pain for the perfectionist inside of me (rip the Aubrey art that I never finished).
