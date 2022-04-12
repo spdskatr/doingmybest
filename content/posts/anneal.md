@@ -120,7 +120,7 @@ If you're interested, I have also shared a Python notebook with my code on [Goog
 
 # How did it do so well?
 
-My theory is that the reason that the algorithm performed so well has to do with the fact that you can get from any permutation to any other permutation in a relatively small number (at most $N-1$) of swaps. This means that the algorithm can easily get a "feel" for the entire landscape of solutions, from which it can select the a promising direction to explore.
+My theory is that the reason that the algorithm performed so well has to do with the fact that you can get from any permutation to any other permutation in a relatively small number (at most $N-1$) of swaps. This means that the algorithm can easily get a "feel" for the entire landscape of solutions, from which it can select a promising direction to explore.
 
 # Is there any research already done on the problem?
 
