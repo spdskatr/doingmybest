@@ -6,22 +6,22 @@ authorTwitter = "" #do not include @
 cover = ""
 tags = ["coding", "ml"]
 keywords = ["", ""]
-description = ""
+description = "Our first breakthrough during a data science contest was realising that our machine learning models were performing way too well."
 showFullContent = false
-readingTime = 10
+readingTime = 15
 +++
+
+(If you just want to see the report we had written, [here it is](/datathon/Datathon_Report.pdf).)
 
 From the 7th to the 13th of March, I was part of a team of Cambridge first year students who participated in the Europe Datathon for the [Citadel Data Open 2022](https://www.citadel.com/careers/the-data-open/). The datathon, organised by Correlation One and Citadel, was a week-long competition in which we were given a large dataset to analyse. Teams were expected to formulate a research question, process the data and present the findings in a report by the end of the week.
 
 After receiving an invite from Junhua to team up for this datathon along with Sherman and Wilson, I thought of this datathon as simply a fun opportunity to gain some more experience with data science tools in Python. After all, I had never used these tools in the wild before.
 
-As a team of first-year students, we had no expectation of doing well at all in this competition. We were up against third-years and even Masters students, after all.
-
-Since everyone worked on a different part of the report, it would be impossible for me to cover everyone's experience. As such, I want to focus on what I took away from the process.
+There was one specific day of the datathon in which we had made our first breakthrough.
 
 # Something's not quite right
 
-It was the fourth day of the datathon. With our primitive tools, we had not found anything in the dataset that correlated with the lateness of an order.
+It was the fourth day of the datathon. We were investigating potential factors that lead to a late shipping order. With our primitive tools, we had not found anything within the provided dataset.
 
 Junhua had the idea of training a machine learning model on the remaining rows of the dataset to predict whether an order would arrive late. We did not have to have the model be highly accurate; all the models had to do was to provide us with a launchpad from which we could more efficiently explore correlations in the data.
 
@@ -31,7 +31,7 @@ After some quick experimentation, he came to me, completely dumbfounded, with a 
 >
 > Always question when a machine learning model performs way too well.
 
-Getting an almost 95%-accurate model, in most cases, would be an amazing achievement. However, in this case, we had a seed of doubt in our minds that it was too good to be true. How come we could not find any correlation in the data manually, whereas a machine learning model found such a strong correlation effortlessly?
+Getting an almost 95%-accurate model, in most cases, would be an amazing achievement. However, in this case, we had a seed of doubt in our minds that it was too good to be true. How come we could not find any correlation in the data manually, whereas a machine learning model had found such a strong correlation effortlessly?
 
 At first, I thought that it was simply a quirk of on-time orders having far more entries in the dataset than late orders, that the model could always predict "On-time" and achieve high accuracy. However, there were actually a balanced amount of entries that were late and on-time. How could this be?
 
@@ -57,7 +57,7 @@ Okay, wait, what was "Late Delivery Risk" even supposed to be again?
 
 Oh. This row literally tells you whether an order was late, so the model could just read from that field and output the answer. It seems that we forgot to remove this from the model's input features.
 
-Okay, that was embarassing. Let's remove it and train a Naive Bayes model instead (the random forest model takes a while to train). That should solve the issues, right?
+Okay, that was embarassing. To avoid encoding the label into the features indirectly, we decided to stick with only the features that would be known to us before the delivery. In the next attempt, we trained a Naive Bayes model instead, as the random forest model had taken a while to train. That should solve the issues, right?
 
 # It did not solve the issues
 
@@ -107,8 +107,6 @@ After numerous other breakthroughs and contributions made by all of the team, we
 
 We won first place.
 
-There used to be a huge passage here about teamwork and other reflections, but after a friend read it back to me in a really sarcastic voice, I realised that I had written a passage of fluff. So, here is the short version...
+*(There used to be a huge passage here about teamwork and other reflections, but after a friend read it back to me in a really sarcastic voice, I realised that I had written a passage of fluff. So, here is the short version...)*
 
-Our team could not have won without the contribution of everybody in it. The content of this post was one of many aspects of the report that we were proud of.
-
-You can view our full report [here](/datathon/Datathon_Report.pdf).
+Our team could not have won without the contribution of everybody in it. This breakthrough was one of many aspects of the report that we were proud of. Overall, we had a lot of fun.
