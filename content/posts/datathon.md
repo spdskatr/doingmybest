@@ -35,7 +35,7 @@ Getting an almost 95%-accurate model, in most cases, would be an amazing achieve
 
 At first, I thought that it was simply a quirk of on-time orders having far more entries in the dataset than late orders, that the model could always predict "On-time" and achieve high accuracy. However, there were actually a balanced amount of entries that were late and on-time. How could this be?
 
-We saved the model and ran a [permutation feature importance](https://scikit-learn.org/stable/modules/permutation_importance.html) test on the validation data, which told us approximately how much each feature of the entry contributes to the model's prediction accuracy.
+We saved the model and ran a [permutation feature importance](https://scikit-learn.org/stable/modules/permutation_importance.html) test on the model with the validation data, which told us approximately how much each feature of the entry contributes to the model's prediction accuracy.
 
 ```
 Late Delivery Risk               0.460359
@@ -72,7 +72,7 @@ Order Item Quantity              0.000150
 Order Department Id              0.000110
 ```
 
-The model still has a rather high accuracy and the permutation importance test is outputting some strange results. It seems that the model mainly relies on the order date and time to predict whether the order was late or not, which makes little sense, as the data analysis we performed in the previous days not being able to identify much global seasonality.
+The model still had a rather high accuracy and the permutation importance test was outputting some strange results. It seems that this model mainly relies on the order date and time to predict whether the order was late or not, which makes little sense, as the data analysis we performed in the previous days were not able to identify much global seasonality.
 
 Was the model somehow overfitting? If so, how was it doing so well on the validation data? Let's bring up the data for a specific day.
 
@@ -80,7 +80,7 @@ Was the model somehow overfitting? If so, how was it doing so well on the valida
 
 So, multiple entries with the same delivery details but different pricing are grouped by the same date and time, and the delivery status is the exact same. This meant that there were essentially duplicate entries in the dataset.
 
-We realised that we had made yet another mistake in splitting the training and validation data randomly. Since most of the entries in the validation set had duplicates in the training set, and thus the Naive Bayes could memorise the answer simply by looking up the date and time of the order.
+We realised that we had made yet another mistake in splitting the training and validation data randomly. Since most of the entries in the validation set had duplicates in the training set, the Naive Bayes could memorise the answer simply by looking up the date and time of the order.
 
 > **Lesson 2**
 > 
