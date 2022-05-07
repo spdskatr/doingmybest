@@ -35,7 +35,7 @@ paginate = 5
   showLastUpdated = false
 
   # custom image for open graph protocol
-  og_image = "assets/opal.svg"
+  og_image = "assets/opal_og.png"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
@@ -49,7 +49,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Violet Tea House"
-    subtitle = "Do people even see these subtitles?"
+    subtitle = "A blog where my scattered thoughts come together for tea."
     owner = "spdskatr"
     keywords = ""
     copyright = ""
