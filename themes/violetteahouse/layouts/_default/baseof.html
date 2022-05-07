@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+{{ block "title" . }}
+<title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} | {{ $.Site.Title }}{{ end }}</title>
+{{ end }}
+{{ partial "head.html" . }}
+</head>
+
+<body>
+
+<div class="container">
+
+{{ partial "header.html" . }}
+
+<div class="content">
+{{ block "main" . }}
+You find yourself in a strange place. It seems that this page contains nothing but this passage of text. <em>Perhaps this was unintentional</em>, you think to yourself.
+
+Well, I'm not sure either way. If you were expecting content on this page, there is none, soooo...
+
+Have a nice day!
+{{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}
+
+</div>
+
+</body>
+</html>

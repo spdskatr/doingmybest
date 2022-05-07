@@ -1,7 +1,7 @@
 baseURL = 'https://spdskatr.github.io/'
 languageCode = 'en-au'
-title = 'Doing my best!'
-theme = 'terminal'
+title = 'Violet Tea House'
+theme = 'violetteahouse'
 
 paginate = 5
 

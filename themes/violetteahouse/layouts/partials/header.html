@@ -1,0 +1,8 @@
+<div class="nav">
+<ul>
+<li class="logo"><a href="{{ .Site.BaseURL }}"><img src="{{ "assets/opal.svg" | absURL }}" class="logoicon"></a></li>
+{{ range first .Site.Params.showMenuItems .Site.Menus.main }}
+<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+{{ end }}
+</ul>
+</div>

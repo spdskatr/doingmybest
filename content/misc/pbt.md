@@ -8,7 +8,7 @@ tags = ["coding", "pbt"]
 keywords = []
 description = "My comments on the property-based testing talk I did."
 showFullContent = false
-readingTime = 10
+readingTime = 5
 +++
 
 # Property-based testing

@@ -11,4 +11,4 @@ I don't really specialise in anything, but I've worked on a few projects in my t
 
 Sometimes, I also record some of the hobbies that I have been doing outside of coding. I hope this will grow into a place where I can show a bit of my character within all of the work I produce.
 
-I hope you enjoy your time here! If you don't, that's ok, I won't be sad. I did my best.
+I hope you enjoy your time at the Tea House!

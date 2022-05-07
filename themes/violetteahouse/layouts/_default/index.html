@@ -1,0 +1,39 @@
+{{ define "main" }}
+    <h3>Posts</h3>
+    {{ $paginator := .Paginate ( where .Site.RegularPages "Type" "posts" ) }}
+    {{ range $paginator.Pages }}
+        <div class="post">
+            <h1 class="post-title">{{ .Title }}</h1>
+
+            <div class="post-info">
+                <span class="post-date">{{ .Date.Format "2006-01-02" }}</span> | <span class="post-reading-time">{{ .ReadingTime }} min read</span> |
+                {{ if .Params.tags }}
+                {{ range .Params.tags }}
+                <a class="post-tag" href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{- . -}}</a>
+                {{ end }}
+                {{ else }}
+                <span class="post-tag">no tags</span>
+                {{ end }}
+            </div>
+
+            <div class="post-content">
+              {{ if .Params.showFullContent }}
+                {{ .Content }}
+              {{ else if .Description }}
+                {{ .Description | markdownify }}
+              {{ else }}
+                {{ .Summary | markdownify }}
+              {{ end }}
+            </div>
+
+            {{ if not .Params.showFullContent }}
+            <div class="post-readmore">
+               <a href="{{ .RelPermalink }}">Read more</a>
+            </div>
+            {{ end }}
+        </div>
+
+        <hr>
+    {{ end }}
+    {{ partial "pagination.html" . }}
+{{ end }}

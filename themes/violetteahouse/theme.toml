@@ -1,0 +1,7 @@
+name = "violetteahouse"
+license = "MIT"
+description = "A simple theme for the violet tea house"
+features = ["blog"]
+
+[author]
+  name = "spdskatr"
