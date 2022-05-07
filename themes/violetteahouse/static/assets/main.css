@@ -44,12 +44,12 @@ p, ul, ol {
     margin: 0 auto;
 }
 
-.nav {
+header {
     width: 100%;
     /*border-bottom: 1px solid var(--tea-color);*/
 }
 
-.nav .logo {
+header .logo {
     height: 2rem;
     margin-right: 1rem;
 }
@@ -58,24 +58,23 @@ p, ul, ol {
     height: 2rem;
 }
 
-.nav ul {
+header ul {
     display: flex;
     margin: 1.5rem;
     padding: 0;
     align-items: center;
 }
 
-.nav li {
+header li {
     list-style-type: none;
     margin: 0 0.5rem;
     text-align: center;
     font-family: "Fira Sans", sans-serif;
 }
 
-.nav li a {
+header a, footer a {
     color: var(--tea-color);
     text-decoration: none;
-    margin: auto;
 }
 
 .pagination {
@@ -120,6 +119,11 @@ p, ul, ol {
 
 h1:hover a, h2:hover a, h3:hover a, h4:hover a, h5:hover a {
     visibility: visible;
+}
+
+a.title-link {
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 figure {
@@ -167,7 +171,7 @@ pre code {
 }
 
 hr {
-    color: var(--cloud-color);
+    border-color: var(--cloud-color);
     margin: 1rem 0;
 }
 
@@ -181,4 +185,8 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 1rem 1.5rem;
+}
+
+.accent {
+    color: var(--tea-color);
 }

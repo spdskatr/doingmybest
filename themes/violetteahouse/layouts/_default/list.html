@@ -1,14 +1,19 @@
 {{ define "main" }}
-    {{ with .Content }}
+    {{- with .Content -}}
     <div class="index-content">
         {{ . }}
     </div>
-    {{ end }}
+    {{- end -}}
+    {{ if (eq .Type "misc") }}
+    <h3>Posts for <span class="accent">Misc</span></h3>
+    {{ else if (eq .Type "tags") }}
+    <h3>Posts for <span class="accent">#{{ .Title }}</span></h3>
+    {{ else }}
     <h3>Posts</h3>
-    <!-- TODO: Pagination -->
+    {{ end }}
     {{ range .Paginator.Pages }}
         <div class="post">
-            <h1 class="post-title">{{ .Title }}</h1>
+            <h1 class="post-title"><a class="title-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 
             <div class="post-info">
             <span class="post-date">{{ .Date.Format "2006-01-02" }}</span> | <span class="post-reading-time">{{ .ReadingTime }} min read</span> |
