@@ -2,6 +2,7 @@
 title: "The Paradox of Trying to Draw Well"
 date: 2022-05-24T22:25:30+01:00
 description: "Not trying to draw well can lead to better drawings."
+tags: ["art"]
 ---
 
 Okay, first of all, I want to say that I am far, ***far*** from a good artist so you shouldn't take anything I write here as serious art advice. I'm just writing down my personal experience, which I hope you will find interesting.
