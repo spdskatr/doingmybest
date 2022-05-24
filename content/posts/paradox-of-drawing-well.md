@@ -36,7 +36,7 @@ I have no perfect solution to this. Judging by what other artists say, I don't e
 
 Obviously I *should* care about the mistakes I make at least *some of the time*, in order to improve. I like to see it this way. There are times that I set aside to improve my art skills and times that I set aside to just have fun. I want to make sure that times never blur into each other.
 
-It must be said that these problems doesn't just happen in art; they happen to projects in general, like writing blogs. There's a noticeable amount of second-guessing I encounter when typing up a post, in fear of my writing being too unclear. Interestingly, just like how drawing in pen to avoids the temptation to undo your strokes, writing in pen avoids the temptation to undo your words.
+It must be said that these problems don't just happen in art; they happen to projects in general, like writing blogs. There's a noticeable amount of second-guessing I encounter when typing up a post, in fear of my writing being too unclear. Interestingly, pen can help with this too. Just like how drawing in pen to avoids the temptation to undo your strokes, writing in pen avoids the temptation to undo your words.
 
 In any case, there is light at the end of the tunnel. Despite all of these psychological barriers that prevent us from performing at our best, some of us are still capable of producing stunning art pieces.
 
