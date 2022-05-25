@@ -35,7 +35,7 @@ Well, that's really hard. And I mean, ***really hard***.
 
 I have no perfect solution to this. Judging by what other artists say, I don't even think a perfect solution exists. All I can really do is to keep going, keep hammering away at my sketchbook or drawing tablet, drawing what I like, not worrying about whether the work I produce is actually *good* or not.
 
-Obviously I *should* care about the mistakes I make at least *some of the time*, in order to improve. I like to see it this way. There are times that I set aside to improve my art skills and times that I set aside to just have fun. I want to make sure that times never blur into each other.
+Obviously I *should* care about the mistakes I make at least *some of the time*, in order to improve. I like to see it this way. There are times that I set aside to improve my art skills and times that I set aside to just have fun. I want to make sure that these times never blur into each other.
 
 It must be said that these problems don't just happen in art; they happen to projects in general, like writing blogs. There's a noticeable amount of second-guessing I encounter when typing up a post, in fear of my writing being too unclear. Interestingly, pen can help with this too. Just like how drawing in pen to avoids the temptation to undo your strokes, writing in pen avoids the temptation to undo your words.
 
