@@ -1,15 +1,11 @@
-+++
-title = "Hello"
-date = "2022-01-25T23:21:59Z"
-author = "spdskatr"
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["hello", "random"]
-keywords = []
-description = "This is my blog now. I hope you enjoy your time here!"
-showFullContent = false
-readingTime = 1
-+++
+---
+title: "Hello"
+date: "2022-01-25T23:21:59Z"
+author: "spdskatr"
+tags: ["hello", "random"]
+description: "This is my blog now. I hope you enjoy your time here!"
+showFullContent: false
+---
 
 # Hello!
 

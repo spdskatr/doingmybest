@@ -1,15 +1,15 @@
-+++
-title = "I Got a Sketchbook!"
-date = "2022-01-30T21:41:18Z"
-author = "spdskatr"
-authorTwitter = "" #do not include @
-cover = "i-got-a-sketchbook/cover.jpg"
-tags = ["art"]
-keywords = []
-description = "I'm no artist, I'm a computer science student. That doesn't mean I don't like drawing, though!"
-showFullContent = false
-readingTime = 5
-+++
+---
+title: "I Got a Sketchbook!"
+date: "2022-01-30T21:41:18Z"
+author: "spdskatr"
+authorTwitter: ""
+cover: "i-got-a-sketchbook/cover.jpg"
+tags: ["art"]
+keywords: []
+description: "I'm no artist, I'm a computer science student. That doesn't mean I don't like drawing, though!"
+showFullContent: false
+readingTime: 5
+---
 
 I'm no artist, I'm a computer science student. That doesn't mean I don't like drawing, though!
 

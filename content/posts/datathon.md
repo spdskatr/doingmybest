@@ -1,15 +1,12 @@
-+++
-title = "How Making Our ML Models Worse Helped Us Win A Datathon"
-date = "2022-04-30T16:22:38+01:00"
-author = "spdskatr"
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["coding", "ml"]
-keywords = ["", ""]
-description = "Our first breakthrough during a data science contest was realising that our machine learning models were performing way too well."
-showFullContent = false
-readingTime = 15
-+++
+---
+title: "How Making Our ML Models Worse Helped Us Win A Datathon"
+date: "2022-04-30T16:22:38+01:00"
+author: "spdskatr"
+authorTwitter: ""
+tags: ["coding", "ml"]
+keywords: ["", ""]
+description: "Our first breakthrough during a data science contest was realising that our machine learning models were performing way too well."
+---
 
 (If you just want to see the report we had written, [here it is](/datathon/Datathon_Report.pdf).)
 

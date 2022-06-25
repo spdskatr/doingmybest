@@ -1,16 +1,12 @@
-+++
-title = "Simulated Annealing and Drawing Connections"
-date = "2022-04-11T22:30:38Z"
-author = "spdskatr"
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["algo", "coding"]
-keywords = []
-description = "A fun challenge I had during my Algorithms 2 course"
-showFullContent = false
-readingTime = false
-math = true
-+++
+---
+title: "Simulated Annealing and Drawing Connections"
+date: "2022-04-11T22:30:38Z"
+author: "spdskatr"
+tags: ["algo", "coding"]
+keywords: []
+description: "A fun challenge I had during my Algorithms 2 course"
+math: true
+---
 
 # Act I - The Challenge
 
