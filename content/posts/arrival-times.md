@@ -71,7 +71,7 @@ Let's do this again, but this time approach it *carefully*.
 
 # Attempt two
 
-Let's say that, for our purposes, we want our wait time to be such that we are at least 95% sure that everyone will have arrived. This way, we can be fairly sure that the meeting will start at or before the scheduled time, and more importantly, *can make up for any error that results from our assumptions not being perfect*.
+Let's say that, for our purposes, we want our wait time to be such that we are at least 95% sure that everyone will have arrived. This way, we can be fairly sure that the meeting will start at or before the scheduled time, and more importantly, *we can make up for any error that results from our assumptions not being perfect*.
 
 This is fairly simple to express using our framework from before; we wish to find $t$, such that
 
