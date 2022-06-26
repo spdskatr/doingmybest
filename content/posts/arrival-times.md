@@ -144,7 +144,7 @@ for name, sigma in [("walking", 3), ("driving", 12)]:
 ## Remarks
 You may notice that the model begins to break down when approaching very high probabilities and very large numbers of people. In real life, people sometimes oversleep, get stuck in traffic jams, have emergencies that would result in them not being able to come. Our model does not account for that.
 
-I've also pulled the values for the standard deviation out from thin air. They're probably on the high side, just to be safe. Further research could be done for more convincing values to use for the standard deviation. We could also properly consider what factors lead people have higher variance in arrival times.
+I've also pulled the values for the standard deviation out from thin air. They're probably on the high side, just to be safe. Further research could be done for more convincing values to use for the standard deviation. We could also properly consider what factors lead people to have higher variance in arrival times.
 
 # Conclusion
 Well, that wasn't so bad now, was it? Next time, when I'm inviting 4 friends over for dinner at a restaurant, i'll be sure to reserve 7 minutes of waiting time.
