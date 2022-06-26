@@ -190,3 +190,14 @@ footer {
 .accent {
     color: var(--tea-color);
 }
+
+table {
+    margin: auto;
+}
+th, td {
+    padding: 0.5rem;
+}
+table, th, td {
+    border: 1px solid var(--cloud-color);
+    border-collapse: collapse;
+}
