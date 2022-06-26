@@ -1,12 +1,12 @@
 ---
 title: "How Long Do I Have To Wait Before Everyone Arrives?"
 date: 2022-06-25T12:09:57-05:00
-description: ""
-tags: ["random"]
+description: "Want to plan meeting itineraries? Let's use unnecessary amounts of maths! Hmm... ...wait, what are we doing again?"
+tags: ["maths", "random"]
 math: true
 ---
 
-Let's say you are organising a meeting for you and $N-1$ of your friends ($N$ people in total). You have all agreed on a time $T$ for the meeting, but the meeting can only start until everyone arrives. Obviously, not everyone is going to arrive at the meeting at exactly time $T$, some people will arrive early and others will arrive late. As the meeting organiser, you want to know how much time you will have to wait for everyone to arrive at the meeting.
+Let's say you are organising a meeting for you and $N-1$ of your friends ($N$ people in total). You have all agreed on a time $T$ for the meeting, but the meeting can only start until everyone arrives. Obviously, not everyone is going to arrive at the meeting at exactly time $T$, some people will arrive early and others will arrive late. As the meeting organiser, you want to know how much time you will have to wait for everyone to arrive at the meeting so you can lay out the agenda accordingly.
 
 First, let's make a few assumptions to turn this into a workable mathematical problem.
 - Assume that everyone will arrive at the meeting at some point.
@@ -53,6 +53,8 @@ E[Y] &= \int_{-\infty}^{\infty} t \ \mathrm{\frac{d}{dt}} \left(\left(\frac{1}{2
 &= \frac{1}{2^N}\int_{-\infty}^{\infty} t \ \left(\frac{1}{\sigma \sqrt 2}\right)\left(\frac{2}{\sqrt {\pi}} e^{-\frac{t^2}{2\sigma^2}}\right) \left(N \left(1 + \mathrm{erf}\left(\frac{t}{\sigma \sqrt 2}\right)\right)^{N-1}\right) \ \mathrm{dt}\\\\
 &= \frac{\sqrt{2} N}{2^N \sigma \sqrt{\pi}} \int_{-\infty}^{\infty} t \ e^{-\frac{t^2}{2\sigma^2}}\left(1 + \mathrm{erf}\left(\frac{t}{\sigma \sqrt 2}\right)\right)^{N-1} \ \mathrm{dt} \\\\
 &= \dots \\\\
+\\\\
+\\\\
 &= \text{\it (Mathematician left for coffee break)}
 \end{aligned}$$
 
@@ -90,10 +92,7 @@ $$t = \sigma \ \Phi^{-1}\left(0.95^\frac{1}{N}\right).$$
 And there we have it! That's our expression for the waiting time! More importantly, the 0.95 came through that calculation completely intact, which means we can replace it with any probability we want. That's what we'll do!
 
 # Results
-Now that we have worked out an expression, we want to present our findings so that other people can make use of our insights. Here's where we need to ask ourselves, which variables do we actually care about?
-- The number of people who will turn up to the meeting
-- The standard deviation for the distribution of arrival times
-- The probability that everyone turns up before that time
+Now that we have worked out an expression, we want to present our findings so that we can more easily make use of our insights.
 
 Let's write up some Python code to generate a table.
 ```py
