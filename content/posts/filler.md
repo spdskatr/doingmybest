@@ -17,6 +17,8 @@ For drawing, this means to keep a sketchbook where I do terrible low-effort dood
 
 As a result, at the end of the day, looking back at my sketchbook, I'm not gonna see a portfolio representative of my best work. I'm going to see a stream of consciousness of whatever I decided to want to doodle that day, complete with mistakes and various funny comments written on the side.
 
+{{< figure src="/posts/filler/doodle.webp" caption="blurry picture of a hastily-drawn vocaloid mascot" >}}
+
 For this blog, I want to replicate the sketchbook environment. I'm not going to delete posts unless I really have to, and it's kind of pointless anyway. A lot of my posts will be less polished than I would like, which I find helps me be more comfortable just getting the initial words down when writing a new post.
 
 So, here's a filler post. Welcome to my essay "sketchbook", full of unpolished doodles for general vague concepts I want to convey.
