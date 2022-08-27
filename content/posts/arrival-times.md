@@ -2,7 +2,7 @@
 title: "How Long Do I Have To Wait Before Everyone Arrives?"
 date: 2022-06-25T12:09:57-05:00
 description: "Want to plan meeting itineraries? Let's use unnecessary amounts of maths! Hmm... ...wait, what are we doing again?"
-tags: ["maths", "random"]
+tags: ["maths"]
 math: true
 ---
 

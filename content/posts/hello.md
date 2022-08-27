@@ -2,7 +2,7 @@
 title: "Hello"
 date: "2022-01-25T23:21:59Z"
 author: "spdskatr"
-tags: ["hello", "random"]
+tags: ["hello", "meta"]
 description: "This is my blog now. I hope you enjoy your time here!"
 showFullContent: false
 ---
