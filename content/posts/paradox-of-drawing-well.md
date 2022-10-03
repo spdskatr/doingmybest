@@ -11,7 +11,7 @@ Here's the problem.
 
 I have the most fun drawing when I'm not trying to draw well. Recently, I've noticed that I draw well when I'm having the most fun. So... I draw well only when I'm not trying to draw well?
 
-{{< figure src="kel.webp" caption="Drawn while at a friend's room watching him study" >}}
+{{< figure src="/posts/paradox-of-drawing-well/kel.webp" caption="Drawn while at a friend's room watching him study" >}}
 
 Okay, let's break this down. The expectations that I place upon myself generally make me focus more on the individual marks and less on what I'm trying to communicate in the actual piece. Naturally, scrutinising each individual mark is incredibly exhausting.
 
@@ -25,7 +25,7 @@ This, of course, is a topic that many other artists talk about. The spectre of p
 
 In fact, these expectations have a double effect on me - they make it way, way easier for me to second-guess the marks I make, which isn't just exhausting for me, it's actively harmful for the piece.
 
-{{< figure src="sketchbook.webp" caption="Sketching in ballpoint pen to avoid the temptation of undoing my marks" >}}
+{{< figure src="/posts/paradox-of-drawing-well/sketchbook.webp" caption="Sketching in ballpoint pen to avoid the temptation of undoing my marks" >}}
 
 That's why I generally have more fun when I don't care about the quality of my work. And, paradoxically, why the quality of my work is generally better when I start drawing without caring about the end result.
 
@@ -43,4 +43,4 @@ In any case, there is light at the end of the tunnel. Despite all of these psych
 
 I think that's amazing.
 
-{{< figure src="surpriseqotd.webp" caption="Not gonna tell you about the backstory for this one..." >}}
+{{< figure src="/posts/paradox-of-drawing-well/surpriseqotd.webp" caption="Not gonna tell you about the backstory for this one..." >}}
