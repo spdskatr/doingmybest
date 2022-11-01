@@ -2,7 +2,7 @@
 title: "Depth First Search and DFS Trees"
 date: 2022-10-31T22:56:28Z
 author: "spdskatr"
-tags: ["meta"]
+tags: ["algo", "coding"]
 keywords: []
 description: "DFS, the backbone of graph algorithms. Let's play around with it."
 math: true
@@ -130,6 +130,6 @@ There are still a couple problems with our solution. I leave it up to you to sol
 1. The `combine` operation, implemented naively, can be quite expensive (up to $O(n)$ time complexity, where $n$ is the number of nodes). This means that the algorithm runs in $O(n^2)$. Unfortunately, this is too slow for the problem. Can you figure out a way to do it in a faster time complexity? *Hint: Use linked lists!*
 2. The graph provided in the problem doesn't necessarily have to be connected. That is, not all nodes could be reachable from node 1. How can you extend this solution to allow for these cases? *Hint: Can you invent a way of DFSing through an almost-complete graph with edges taken out?*
 
-If, after you have solved these issues, you feel comfortable implementing, I would strongly encourage you give it a try. [This link](https://open.kattis.com/problems/icyitinerary) should take you to an online judge that can check your code.
+If, after you have solved these issues, you feel comfortable implementing, I would strongly encourage you to give it a try. [This link](https://open.kattis.com/problems/icyitinerary) should take you to an online judge that can check your code.
 
-Happy Halloween! (If it hasn't already finished for you)
+Lastly, happy Halloween! (If it hasn't already finished for you)
