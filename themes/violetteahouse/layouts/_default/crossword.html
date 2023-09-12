@@ -1,0 +1,151 @@
+{{ define "main" }}
+    <div class="post">
+        <h1 class="post-title">{{ .Title }}</h1>
+
+        <div class="post-info">
+        <span class="post-date">{{ .Date.Format "2006-01-02" }}</span> | <span class="post-reading-time">{{ .ReadingTime }} min read</span> |
+        {{ if .Params.tags }}
+        {{ range .Params.tags }}
+        <a class="post-tag" href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{- . -}}</a>
+        {{ end }}
+        {{ else }}
+        <span class="post-tag">no tags</span>
+        {{ end }}
+        </div>
+        <style>
+            .crossword td {
+                position:relative;
+                max-width: 3rem;
+                max-height: 3rem;
+                width: 3rem;
+                height: 3rem;
+                font-size: 2rem;
+                text-align: center;
+                vertical-align: middle;
+                padding:0;
+            }
+            .crossword td .n {
+                position: absolute;
+                left: 0.3rem;
+                top: 0.3rem;
+                font-size: 0.8rem;
+                z-index: -1;
+                user-select: none;
+            }
+            .crossword td .l {
+                text-align: center;
+                vertical-align: middle;
+                left:0;
+                top:0;
+                right:0;
+                bottom:0;
+                position:absolute;
+                margin:0;
+                padding:0;
+                text-transform: capitalize;
+            }
+            .crossword td.c {
+                background-color: rgba(0,125,255,0.2);
+            }
+            .crossword td.b {
+                background-color: var(--cloud-color);
+            }
+            .cw {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .cw .clues {
+                flex: 1;
+                display: flex;
+                min-width:600px;
+            }
+            .cw .cw-container {
+                flex:1;
+                min-width:600px;
+            }
+            .clues .col {
+                flex:1;
+                padding-right: 1rem;
+                font-size: 0.9rem;
+            }
+            .col :first-child {
+                margin-top: 0;
+            }
+            /* Because Markdown hates you when you try to create an ordered
+               list with out of order elements, this is my quick workaround */
+            .col ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            .col ol {
+                padding-left: 1.5rem;
+            }
+            .col li::marker, .col strong {
+                color: var(--cloud-color);
+            }
+            #reset {
+                display: block;
+                margin: 0 auto;
+            }
+            .container {
+                max-width: 100rem !important;
+            }
+        </style>
+
+        <div class="post-content">
+            <!-- I wrote this all by hand in one evening with the help of my text editor. -->
+            <div class="cw">
+            <div class="cw-container">
+            {{ partial "crossword1.html" . }}
+            <button id="reset">Reset crossword</button>
+            </div>
+            <div class="clues">
+                <div class="col">
+                    {{ with .Resources.GetMatch "across.md" }}
+                        {{ .Content }}
+                    {{ end }}
+                </div>
+                <div class="col">
+                    {{ with .Resources.GetMatch "down.md" }}
+                        {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+            </div>
+            {{- with .Content -}}
+                <div>
+                    {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
+                </div>
+            {{- end -}}
+        </div>
+        <script>
+            document.querySelectorAll(".crossword td .l").forEach((td, index, _) => {
+                const ident = "crossword_" + index;
+                td.id = ident;
+                let cs = localStorage.getItem(ident);
+                if (cs) {
+                    td.textContent = cs;
+                }
+                const callback = () => {
+                    let c = td.textContent;
+                    /* Don't set this to less than 1, you'll infinite-loop :P */
+                    if (c.length > 1) {
+                        td.textContent = c[0];
+                    }
+                    localStorage.setItem(ident, c);
+                };
+                callback();
+                new MutationObserver(callback).observe(td, { childList: true, subtree: true, characterData: true })
+            })
+            document.getElementById("reset").addEventListener("click", () => {
+                if (window.confirm("Are you sure you want to reset?")) {
+                    document.querySelectorAll(".crossword td .l").forEach((td,index,_) => {
+                        td.textContent = "";
+                    })
+                }
+            })
+        </script>
+    </div>
+    <hr>
+{{ end }}
