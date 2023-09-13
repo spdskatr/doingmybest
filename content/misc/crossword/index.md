@@ -7,7 +7,7 @@ layout: crossword
 
 # Crossword
 
-Welcome! I was curious how crossword makers assembled crosswords, so I decided to learn how to make one myself. To add a bit of fun, some of the clues in this crossword are regular crossword clues, and some are [cryptic crossword](https://en.wikipedia.org/wiki/Cryptic_crossword) clues.
+Welcome! I was curious how crossword makers assembled crosswords, so I decided to learn how to make one myself. To add a bit of fun, some of the clues in this crossword are regular crossword clues, and some are [cryptic crossword](https://en.wikipedia.org/wiki/Cryptic_crossword) clues. If you have never done a cryptic crossword, [this video](https://youtu.be/HrKiYFJxgic) provides a quick introduction to how cryptic clues work.
 
 What's the theme for the crossword, I hear you ask? I guess you can find out for yourself.
 
