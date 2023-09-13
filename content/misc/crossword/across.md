@@ -15,7 +15,7 @@
 - 8. against **(4)**
 - 9. expression of rejection **(3)**
 - 14. less than junior **(9)**
-- 16. evaluator **(abbr.)** (4)
+- 16. evaluator (abbr.) **(4)**
 - 19. concept **(4)**
 - 24. lacking water **(4)**
 - 31. to tweak **(4)**
