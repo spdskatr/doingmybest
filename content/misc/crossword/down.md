@@ -11,12 +11,12 @@
 - 12. lightning conductor **(3)**
 - 13. word found in one of the other clues **(3)**
 - 15. to prepare **(4)**
-- 16. maturely paying respects to English **(5)**
+- 16. mature by paying respects to the English **(5)**
 - 18. animal used by programmers of Rust **(5)**
 - 20. French RPG Maker game **(3)**
 - 22. She's a well-known roarer **(4)**
 - 23. to burst out **(5)**
-- 25. in summer, a student becomes this **(6)**
+- 25. in summer, a student often becomes this **(6)**
 - 27. packed densely **(5)**
 - 28. archaic word for "until" **(4)**
 - 29. Unix stream editor **(3)**
