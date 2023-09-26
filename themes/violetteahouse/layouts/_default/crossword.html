@@ -3,7 +3,7 @@
         <h1 class="post-title">{{ .Title }}</h1>
 
         <div class="post-info">
-        <span class="post-date">{{ .Date.Format "2006-01-02" }}</span> | <span class="post-reading-time">{{ .ReadingTime }} min read</span> |
+        <span class="post-date">{{ .Date.Format "2006-01-02" }}</span> |
         {{ if .Params.tags }}
         {{ range .Params.tags }}
         <a class="post-tag" href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{- . -}}</a>
