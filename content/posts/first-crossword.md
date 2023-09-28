@@ -88,9 +88,15 @@ A friend actually originally suggested me this clue as a joke after my original 
 
 {{< figure src="/posts/first-crossword/crabs.webp" caption="You can probably guess why I had to modify it." >}}
 
+## Two songs I like with no further context
+
+[frad - first date](https://www.youtube.com/watch?v=AVK0BIVqLLc): This one's helped me through many bad nights. It's a very chill song...
+
+[Snail's House - Grape Soda](https://www.youtube.com/watch?v=ks2hGA1yV3Q): This one's got the iconic Snail's House funkiness and is also one of my old favourites.
+
 # Conclusion
 
-Making the crossword was a fun process! I feel sort of bad for the unused words in my word bank, so here's a clue I left out:
+Making the crossword was fun! I feel sort of bad for the unused words in my word bank, so here's a clue I left out:
 
 > deliver from port the entitlements to the shark-lovers' slogan (5,6)
 
