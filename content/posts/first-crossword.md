@@ -54,7 +54,7 @@ If you haven't solved the [crossword](/misc/crossword) yet and would like to sol
 
 This clue doesn't even make sense when interpreted literally. I left this in here as a very obvious and easy cryptic clue, as long as you have a general understanding of how cryptic clues work.
 
-Also, the clue is an obscure reference to a annoying game I used to play with friends over Discord, where we'd think up of as many anagrams of a word as possible. [AtCoder](http://atcoder.jp/), a Japanese competitive programming site, was one we found especially many anagrams for.
+Also, the clue is an obscure reference to an annoying game I used to play with friends over Discord, where we'd think up of as many anagrams of a word as possible. [AtCoder](http://atcoder.jp/), a Japanese competitive programming site, was one we found especially many anagrams for.
 
 {{< figure src="/posts/first-crossword/atcoder.webp" caption="Yeah, I know, some of them don't make sense. It was three years ago..." >}}
 
