@@ -49,10 +49,10 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Violet Tea House"
-    subtitle = "A blog where my scattered thoughts come together for tea."
-    owner = "spdskatr"
-    keywords = ""
-    copyright = ""
+    [languages.en.params]
+      subtitle = "A blog where my scattered thoughts come together for tea."
+      owner = "spdskatr"
+      keywords = ""
 
     [languages.en.params.logo]
       logoHomeLink = "/"
