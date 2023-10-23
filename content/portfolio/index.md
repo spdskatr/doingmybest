@@ -1,6 +1,7 @@
 ---
 title: "Portfolio"
 date: 2022-10-02T21:46:00Z
+description: "My favourite posts of the blog."
 ---
 
 Welcome to the hall of fame! Here, I store some of my favourite posts in the entire blog. The collection is currently pretty small, but I hope that it will grow over time.
