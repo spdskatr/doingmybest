@@ -32,7 +32,7 @@ By this point, I was quite committed to the act of naming my laptop after variou
 
 Compare my naming convention with [the naming convention that AWS uses for its EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-naming.html). AWS's naming convention, although useful and straightforward, doesn't imbue any sense of personality. My naming convention makes my devices seem almost *cute* in comparison.
 
-This sort of represents how a computers can either be [pets or cattle](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/#understanding-pets-and-cattle). To AWS, EC2 instances are cattle, they are practically treated the same as each other. To me, my personal devices are pets, each one is different and each one serves a particular purpose for me. That's why I give them nice names.
+This sort of represents how computers can either be [pets or cattle](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/#understanding-pets-and-cattle). To AWS, EC2 instances are cattle, they are practically treated the same as each other. To me, my personal devices are pets, each one is different and each one serves a particular purpose for me. That's why I give them nice names.
 
 # Should I adopt a naming convention?
 
