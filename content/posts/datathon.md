@@ -8,11 +8,9 @@ keywords: ["", ""]
 description: "Our first breakthrough during a data science contest was realising that our machine learning models were performing way too well."
 ---
 
-(If you just want to see the report we had written, [here it is](/datathon/Datathon_Report.pdf).)
-
 From the 7th to the 13th of March, I was part of a team of Cambridge first year students who participated in the Europe Datathon for the [Citadel Data Open 2022](https://www.citadel.com/careers/the-data-open/). The datathon, organised by Correlation One and Citadel, was a week-long competition in which we were given a large dataset to analyse. Teams were expected to formulate a research question, process the data and present the findings in a report by the end of the week.
 
-After receiving an invite from Junhua to team up for this datathon along with Sherman and Wilson, I thought of this datathon as simply a fun opportunity to gain some more experience with data science tools in Python. After all, I had never used these tools in the wild before.
+After receiving an invite from a friend to team up for this datathon, I thought of this datathon as simply a fun opportunity to gain some more experience with data science tools in Python. After all, I had never used these tools in the wild before.
 
 There was one specific day of the datathon in which we had made our first breakthrough.
 
@@ -103,7 +101,3 @@ This seems a bit more reasonable. We eventually investigated the "Days for shipm
 After numerous other breakthroughs and contributions made by all of the team, we spent the entirety of the last day writing up a 5000-word report detailing all of our findings. Then, the next day...
 
 We won first place.
-
-*(There used to be a huge passage here about teamwork and other reflections, but after a friend read it back to me in a really sarcastic voice, I realised that I had written a passage of fluff. So, here is the short version...)*
-
-Our team could not have won without the contribution of everybody in it. This breakthrough was one of many aspects of the report that we were proud of. Overall, we had a lot of fun.
