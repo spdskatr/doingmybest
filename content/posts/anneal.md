@@ -159,5 +159,3 @@ Oh, right. The purpose of this challenge was to **draw connections**. What conne
 - The series of matrix multiplications allowed us to show that it was equivalent to the quadratic assignment problem, and hence show that it was NP-hard.
 
 At the end of the day, even though the approach I took had nothing to do with max-flow, I still ended up drawing a lot of connections between different concepts in computer science. More importantly, I learned that many problems can *leverage solutions to known problems* to craft decent solvers without much effort.
-
-Since this solution performed the best out of all of the solutions that were submitted, I was invited to present my solution in front of the cohort as a mini-lecture. You can access the slides [here](/anneal/anneal-intro.pdf).
