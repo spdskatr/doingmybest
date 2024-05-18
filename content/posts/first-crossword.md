@@ -1,10 +1,10 @@
 ---
-title: "Crossword: Behind The Scenes"
-date: 2023-09-28T09:00:00+01:00
+title: "Crossword: Behind The Scenes (re-written)"
+date: 2024-05-18T11:30:00+01:00
 description: "An editor's commentary on my first (semi)-cryptic crossword"
 ---
 
-First post of the year!
+~~Welcome to my dissertation.~~
 
 # Introduction
 
@@ -14,9 +14,9 @@ This made me a bit curious how crossword builders assembled these word puzzles.
 
 So I learned how to make a [crossword](/misc/crossword) and sent my finished product to a few of my friends. It was surprisingly fun watching them solve my puzzles. It's especially rewarding when you laugh along with them as they have their "aha" moments with each of the clues.
 
-# Building the crossword
+# Preparation
 
-Before I started assembling the crossword, I had already come up with a few ideas for clues that I wanted to add. Since the blank spaces in crossword grids should be rotationally symmetric, I had to pair up words with the same length from my word bank, to place them on opposite sides of the crossword.
+I begin work on planning out the crossword. Before I started assembling the crossword, I had already come up with a few ideas for clues that I wanted to add. Since the blank spaces in crossword grids should be rotationally symmetric, I had to pair up words with the same length from my word bank, to place them on opposite sides of the crossword.
 
 It turns out, assembling a crossword itself is sort of like solving a puzzle:
 1. Place the special words you have prepared in various corners of the board.
@@ -40,7 +40,7 @@ There are a few best practices when it comes to checked letters in crossword clu
 - **In American crosswords, unchecked letters aren't allowed.** Due to this rule, American crosswords have beautiful wide interlocking grids with few black squares. This was a bit hard for me to accomplish, since I was working with a large number of special words, so I decided to ignore this.
 - **There should be no more than two unchecked letters in a row.** In fact, crosswords rarely even have two unchecked letters in a row. In my grid, there were a couple of sections with two adjacent unchecked letters. I managed to make sure there weren't more than two, though.
 
-# Clues
+# Implementation
 
 ## Here be spoilers!
 
@@ -62,13 +62,23 @@ We also found a lot for [Optiver](https://optiver.com/). Repivot, Overpit, Tip O
 
 ## 26 across
 
+> a fluffy thing can imbue endless fun-sized nanoseconds! (6)
+
+The past version of this clue was:
+
 > a fluffy thing to imbue endless joy in mere nanoseconds (6)
 
-Assuming you have solved this clue, you are probably wondering what the word "joy" is doing there.
+You are probably wondering what the word "joy" is doing there.
 
-The answer is, nothing much, really. It's sort of a red herring that I couldn't get rid of.
+The answer is, nothing much, really. It's sort of a red herring that I couldn't get rid of at the time. Until I realised that you can put a phrase that means both abbreviation and fun. Luckily, I recall this message a friend sent me:
 
-But why was the word "joy" put in there in the first place? Well, 26 across was meant to be a reference to Nim! She's a resident of the tea house and has had quite a few cameos in past blog posts (in both cloud form and human form). Nim's a beacon of joy, so that's why I put the word in there.
+```
+I am small because I am fun sized
+O-|--< <--- normal person
+O|< me
+```
+
+Anyway, why did I leave the word "joy" in there in the first place? Well, 26 across was meant to be a reference to Nim! She's a resident of the tea house and has had quite a few cameos in past blog posts (in both cloud form and human form). Nim's a beacon of joy, so that's why I put the word in there.
 
 {{< figure src="/posts/first-crossword/nim-howtodraw.webp" caption="Another Nim cameo" >}}
 
@@ -76,7 +86,7 @@ The clues used to have a lot more of these sorts of obscure references, but I re
 
 Why didn't I just change the clue? Well, I realised that the clue, when interpreted literally, is also a really good definition for Nim's personality. For lack of a better word, it's a cute clue!
 
-This property of cryptic clues is sometimes called [&amp;lit.](https://en.wikipedia.org/wiki/Cryptic_crossword#.22.26lit..22), and they're like regular cryptic clues but wrapped up nicely with a double bow. Typically these clues end in an exclamation mark, but since I didn't expect any knowledge on Nim's personality from, well, anyone, I didn't include one.
+This property of cryptic clues is sometimes called [&amp;lit.](https://en.wikipedia.org/wiki/Cryptic_crossword#.22.26lit..22), and they're like regular cryptic clues but wrapped up nicely with a double bow. These clues end in an exclamation mark to signal to the solver that there's something really cool going on.
 
 ## 18 down
 
@@ -88,16 +98,32 @@ A friend actually originally suggested me this clue as a joke after my original 
 
 {{< figure src="/posts/first-crossword/crabs.webp" caption="You can probably guess why I had to modify it." >}}
 
-## Two songs I like with no further context
+# Evaluation
 
-[frad - first date](https://www.youtube.com/watch?v=AVK0BIVqLLc): This one's helped me through many bad nights. It's a very chill song...
+I gave this crossword out to my friends. Let's see how they did!
 
-[Snail's House - Grape Soda](https://www.youtube.com/watch?v=ks2hGA1yV3Q): This one's got the iconic Snail's House funkiness and is also one of my old favourites.
+## Solve times
 
-# Conclusion
+Solve times varied. The fastest solve time was by one of my testers (who is pretty good with puzzles) who completed the crossword in under 30 minutes! The rest of the people who did my crossword took between two and four hours to fully solve it. I encouraged them (especially those who were new to cryptics) to use crossword solvers and the Internet. If they were stuck, they could also ask me (or other people who have solved it) for hints.
+
+A solve time of two to four hours was just what I wanted, since this meant that the clues were hard, but never too hard that it took a long time to figure out. I created the crossword just for a bit of fun and not as some ridiculously hard challenge.
+
+The last clues to be solved were usually 16 and 18 Down. I expected this - two out of five of the letters were unchecked and the clues were both quite difficult. The top left and bottom right corners were also quite hard and they also had five out of eight letters unchecked.
+
+## General feedback from various people
+
+People generally seemed to like my crossword! Some even shared the crossword to their friends. People also gave me feedback regarding the clues:
+
+- very nice
+- pls make more
+- i like the cryptic clues, about half the cryptic clues i don't think i would have gotten by themselves so the xword format is nice
+- 16 Down: RIPEN was the last word I got and I literally laughed when I got it
+- [3 Down] I actually knew without googling -- really flexing my platformer chops
+
+# Conclusions
 
 Making the crossword was fun! I feel sort of bad for the unused words in my word bank, so here's a clue I left out:
 
 > deliver from port the entitlements to the shark-lovers' slogan (5,6)
 
-Can you guess what it is? Hint: "shark-lovers' slogan" is the straight part.
+Can you guess what it is? Hint: "shark-lovers' slogan" is the straight part. "Straight" part? Okay, you know that's not what I mean.

@@ -1,13 +1,13 @@
 ## Cryptic across
 
-- 1. disturbing siren yet to be peaceful **(8)**
-- 5. loving friend helps you navigate Sydney **(4)**
-- 11. pop sounds like smell of wine ingredients **(5,4)**
-- 17. a staple is often found cut and pasted? **(6)**
+- 1. disturbing siren, yet peaceful **(8)**
+- 5. lovely friend who helps you navigate Sydney **(4)**
+- 11. pop sounds like the smell of wine ingredients **(5,4)**
+- 17. a staple is cut and pasted? **(6)**
 - 21. white princess misses meeting at ice formation **(9)**
-- 26. a fluffy thing to imbue endless joy in mere nanoseconds **(6)**
-- 35. excited and anxious for the earliest fruit **(5,4)**
-- 40. red can create friction on startup? **(4)**
+- 26. a fluffy thing can imbue endless fun-sized nanoseconds! **(6)**
+- 35. excited and anxious for January 1 **(5,4)**
+- 40. Red ventures after the main problem **(4)**
 - 41. child's brain, no centipedes within **(8)**
 
 ## Standard across
