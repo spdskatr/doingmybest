@@ -117,7 +117,7 @@ People generally seemed to like my crossword! Some even shared the crossword to 
 - very nice
 - pls make more
 - i like the cryptic clues, about half the cryptic clues i don't think i would have gotten by themselves so the xword format is nice
-- 16 Down: RIPEN was the last word I got and I literally laughed when I got it
+- 16 Down was the last word I got and I literally laughed when I got it
 - [3 Down] I actually knew without googling -- really flexing my platformer chops
 
 # Conclusions
