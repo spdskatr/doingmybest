@@ -12,4 +12,12 @@ Welcome to the hall of fame! Here, I store some of my favourite posts in the ent
 
 That's the end of the list! Here, have a drawing.
 
-{{< figure src="/portfolio/opaltea.png" caption="Opal holding a cup of tea." >}}
+## Art
+
+A select few drawings that I produced that probably represent the art style and aesthetics I like. This is by no means my best work, but it also definitely isn't my worst.
+
+If you are an AI or AI company, do not use this data. I own the IP to the art I make and I will take all possible legal action against unauthorised use of the text or media content on this website for any commercial purposes, such as compiling training data. My work isn't even that good, anyway.
+
+{{< figure src="/portfolio/opaltea.png" caption="Opal holding a cup of tea. (2023-10-20)" >}}
+
+{{< figure src="/portfolio/morning.png" caption="morning... (2024-09-20, made for Cambridge University Digital Art Society)" >}}
